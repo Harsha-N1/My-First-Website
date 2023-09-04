@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    text-align: center;
+  }
+
+
+
+.navbar-default {
+    background-image: url('/img/header3.ico');
+    border-style: none;
+    display: grid;
+    margin-top: 5px;
+    margin-block-end: 50px;
+}
+
+
+.Home {
+    text-align: left;
+    font-size:16px;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+.clickables {
+    text-align: right;
+    font-size: 16px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+    margin-top:-25px
+}
+
+
+.res-link, .h-link {
+    color: rgb(67, 65, 65);
+    text-decoration: none;
+}
+
+.res-link:hover {
+    color: rgb(16, 96, 176);
+    text-decoration: none;
+}
+
+.h-link:hover {
+    text-decoration: none;
+    color: rgb(54, 52, 52);
+}
+
+@media (max-width: 767px) {
+    .navbar-default {
+        margin-block-end: 5px;
+    }
+    .navbar li {
+      padding-left: 15px;
+      text-align: left;
+    }
+    res {
+        font-size: medium;
+    }
+    footer {
+        margin-top: 40px;
+    }
+}
+
+
+footer {
+    width: 100%;
+    height: 1px;
+    border: 0 none;
+    margin-top: 80px;
+    padding-bottom: 30px;
+}
+  
+.res {
+    font-size: 17px;
+}
+.fa-stack, .fa-2x {
+    color: #866a7e;
+  }
+.fa-stack:hover .fa-circle {
+    color: #d98ac7;
+  }
