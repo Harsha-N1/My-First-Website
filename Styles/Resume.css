@@ -130,7 +130,6 @@ table, tbody {
 
 @media only screen and (min-width:700px) {
     #boxes {
-        display: none;
         padding-left: 25%;
     }
 
