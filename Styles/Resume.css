@@ -8,7 +8,11 @@ body {
 }
 
 h1 {
-    color: black; font-family:"Times New Roman", serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 20pt;
+    color: black; 
+    font-family:"Times New Roman", serif; 
+    font-style: normal; font-weight: bold; 
+    text-decoration: none; 
+    font-size: 20pt;
 }
 
 #table {
@@ -34,7 +38,7 @@ p {
     color: black; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12.5pt; margin:0pt;
 }
 
-.a, a { 
+a:not(#LI, .a) { 
     color: black; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12.5pt;
 }
 
@@ -76,6 +80,7 @@ li {
     display: block;
 }
 
+
 #l2 {
     padding-left: 0pt;
 }
@@ -106,12 +111,12 @@ table, tbody {
     margin-top:-90px;
   }  
   #boxes .window {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     width: 440px;
-    height: 850px;
     display: none;
+    height: 850px;
     z-index: 9999;
     padding: 20px;
     border-radius: 5px;
@@ -136,11 +141,12 @@ table, tbody {
     }
     
     .window {
-        left: 3px;
+        margin-left: 10px;
     }
 
-    .hide {
-        display: none;
+    body {
+        background-image: url('/img/header3.ico');
+        background-repeat: no-repeat;
+        text-align: center;
     }
-
 }
