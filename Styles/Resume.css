@@ -23,6 +23,7 @@ h1 {
 #ul {
     padding-left: 7pt;
     text-align: left; 
+    text-indent: 0;
     text-decoration: underline;
     text-decoration-thickness: 0.7px;
     text-underline-offset: 9px;
@@ -130,7 +131,16 @@ table, tbody {
 
 @media only screen and (min-width:700px) {
     #boxes {
+        display: none;
         padding-left: 25%;
+    }
+    
+    .window {
+        left: 3px;
+    }
+
+    .hide {
+        display: none;
     }
 
 }
