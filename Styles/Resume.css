@@ -3,8 +3,17 @@
 }
 
 body {
-    background-image: url('/img/header3.ico');
+    background-image: url('https://github.com/Harsha-N1/harsha-n1.github.io/blob/011a73b788f1b57ced2d805c35b1b58b54421f95/img/header3.ico');
     text-align: center;
+}
+
+a {
+    color: lightblue;
+    font-family:"Times New Roman", serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 12.5pt;
 }
 
 h1 {
