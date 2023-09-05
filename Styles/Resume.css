@@ -38,10 +38,6 @@ p {
     color: black; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12.5pt; margin:0pt;
 }
 
-a:not(#LI, .a) { 
-    color: black; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12.5pt;
-}
-
 h2 { 
     color: black; font-family:"Times New Roman", serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 12.5pt;
 }
