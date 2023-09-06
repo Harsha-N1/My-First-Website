@@ -6,10 +6,7 @@
     text-align: center;
   }
 
-
-
 .navbar-default {
-    background-image: url('/img/header3.ico');
     border-style: none;
     display: grid;
     margin-top: 5px;
