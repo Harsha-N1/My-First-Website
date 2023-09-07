@@ -80,3 +80,20 @@ footer {
 .fa-stack:hover .fa-circle {
     color: #d98ac7;
   }
+
+  @media only screen and (min-width: 992px) {
+    footer {
+        margin-left: 11%;
+        margin-top: 8.8%;
+    }
+  }
+
+  @media only screen and (max-width: 993px) {
+    .col-md-4 img {
+        margin-top: -4%;
+    }
+
+    footer {
+        margin-top: 15%;
+    }
+  }
