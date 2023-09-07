@@ -81,14 +81,14 @@ footer {
     color: #d98ac7;
   }
 
-  @media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
     footer {
         margin-left: 11%;
         margin-top: 8.8%;
     }
   }
 
-  @media only screen and (max-width: 993px) {
+@media only screen and (max-width: 993px) {
     .col-md-4 {
         margin-top: -4%;
     }
