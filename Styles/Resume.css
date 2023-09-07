@@ -23,17 +23,10 @@ h1 {
     font-size: 20pt;
 }
 
-#table {
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
 #ul {
     padding-left: 7pt;
     text-align: left; 
     text-indent: 0;
-    text-decoration: underline;
-    text-decoration-thickness: 0.7px;
     text-underline-offset: 9px;
 }
 
@@ -96,11 +89,11 @@ table, tbody {
 #close-img {
     padding-top: 85px;
     padding-right: 18px;
-    width: 40px;
+    width: 38px;
 }
 
 .note {
-    padding-top: 11%;
+    padding-top: 6%;
   }
 
   #mask {
@@ -114,20 +107,17 @@ table, tbody {
     position: fixed;
     left: 0;
     top: 0;
-    width: 440px;
     display: none;
-    height: 850px;
     z-index: 9999;
-    padding: 20px;
-    border-radius: 5px;
+    border-radius: 13px;
     text-align: center;
     border-style: solid;
     border-color: rgb(95, 85, 92);
   }
 
   #boxes #dialog {
-    width:450px;
-    height:200px;
+    width:360px;
+    height:160px;
     padding: 10px 10px 10px 10px;
     background-image: url(/img/header3.ico);
     background-position: 20% 20%;
@@ -141,6 +131,16 @@ table, tbody {
 
     #t1 {
         margin-left: 40%;
+    }
+
+    #ul {
+        border-bottom: 1.8px solid rgb(59, 58, 59);
+        padding-bottom: 10px;
+    }
+
+    #table {
+        margin-left: 20%;
+        margin-right: 20%;
     }
 }
 
@@ -173,3 +173,15 @@ table, tbody {
         margin-left: 37%;
     }
 }
+
+@media only screen and (max-width: 950px) {
+    #ul {
+        border-bottom: 1.8px solid rgb(59, 58, 59);
+        padding-bottom: 0px;
+    }
+    #table {
+        margin-left: 3%;
+        margin-right: 5%;
+    }
+}
+
