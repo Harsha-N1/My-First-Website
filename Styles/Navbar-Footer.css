@@ -69,6 +69,8 @@ footer {
     border: 0 none;
     margin-top: 80px;
     padding-bottom: 30px;
+    display: grid;
+    grid-area: foot;
 }
   
 .res {
@@ -83,18 +85,14 @@ footer {
 
 @media only screen and (min-width: 992px) {
     footer {
-        width: 88%;
-        margin-left: 12%;
-        margin-top: 8.8%;
+        margin-top: 12%;
     }
   }
 
 @media only screen and (max-width: 993px) {
     .col-md-4 {
-        margin-top: -4%;
+        margin-top: -7%;
     }
 
-    footer {
-        margin-top: 15%;
-    }
+
   }

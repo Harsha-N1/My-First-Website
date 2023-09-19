@@ -2,8 +2,9 @@ body {
     text-align: center;
 }
 
-.main {
+.container {
   display: grid;
+  grid-template-areas: "info pic foot";
 }
 
 .grid {
@@ -12,12 +13,15 @@ body {
 }
 
 h1 {
-  margin-top: 80px;
+  margin-top: 60px;
   margin-bottom: 25px;
 }
 
 .col-md-8 {
-    margin-top: 20px;
+    grid-area: info;
+}
+.col-md-4 {
+  grid-area: pic;
 }
 
 p { 
@@ -26,10 +30,10 @@ p {
 
 img {
     vertical-align: middle;
-    margin-top: 35px;
-    height: 280px;
-    width: 280px;
-    border: 10px solid #f5c787;
+    margin-top: 20px;
+    height: 270px;
+    width: 270px;
+    border: 8px solid #f5c787;
     border-radius: 130px;
 }
 
@@ -49,8 +53,8 @@ img {
       margin-top: 25px;
     }
     h1 {
-      margin-top: 15px;
-      margin-bottom: 15px;
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
     .grid p {
       margin-top: 10px;
