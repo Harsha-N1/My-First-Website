@@ -4,7 +4,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-areas: "info pic foot";
+  margin-top: 5%;
 }
 
 .grid {
@@ -17,12 +17,6 @@ h1 {
   margin-bottom: 25px;
 }
 
-.col-md-8 {
-    grid-area: info;
-}
-.col-md-4 {
-  grid-area: pic;
-}
 
 p { 
     color: black; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 12.5pt; margin:0pt;
